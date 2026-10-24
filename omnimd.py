@@ -13,8 +13,8 @@ MODEL_NAME = "qwen2.5-coder:1.5b"  # Fast, highly performant local model for lap
 def print_banner():
     """Renders a beautiful ASCII art title banner."""
     banner = """
- █▀█ █▀▄▀█ █▄░█ █▀█ █▀▄
- █▄█ █░▀░█ █░▀█ █▄█ █▄▀  v1.0.0
+ █▀█ █▀▄▀█ █▄░█ █ █▀▄▀█ █▀▄
+ █▄█ █░▀░█ █░▀█ █ █░▀░█ █▄▀  v1.0.0
     """
     console.print(banner, style="bold cyan")
     console.print("⚡ [dim]Flash-speed codebase documentation engine[/dim]\n")
